@@ -218,4 +218,4 @@ Spring Boot will automatically skip creating the default in-memory or HTTP versi
 
 ## Author
 
-- Tanmoy \- [`tany007`](https://github.com/tany007)
+- Tanmoy Khan\- [`tany007`](https://github.com/tany007)
