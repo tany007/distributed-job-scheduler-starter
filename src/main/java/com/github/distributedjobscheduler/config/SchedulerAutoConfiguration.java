@@ -65,7 +65,7 @@ public class SchedulerAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    @ConditionalOnProperty(prefix = "job.dispatcher", name = "enabled", havingValue = "true", matchIfMissing = true) // Enabled by default
+    @ConditionalOnProperty(prefix = "job.scheduler", name = "enabled", havingValue = "true", matchIfMissing = true) // Enabled by default
     public JobScheduler jobScheduler(JobStorage jobStorage,
                                      WorkerRegistry workerRegistry,
                                      JobDispatcher jobDispatcher,
